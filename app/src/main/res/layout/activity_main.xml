@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pordefecto.parapam.MainActivity">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="503dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/button_jugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Jugar"
+            android:text="Jugar" />
+
+        <Button
+            android:id="@+id/button_ayuda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="irAyuda"
+            android:text="Ayuda" />
+
+        <Button
+            android:id="@+id/button_silenciarMusica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="silenciarMusica"
+            android:text="Silenciar Musica" />
+
+        <Button
+            android:id="@+id/button_silenciarSonido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="silenciarSonido"
+            android:text="Silenciar Sonido" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
