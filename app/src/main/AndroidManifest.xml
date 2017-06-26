@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".AyudaActivity" />
         <activity android:name=".JuegoActivity" />
-        <activity android:name=".TransicionActivity"></activity>
     </application>
 
 </manifest>
